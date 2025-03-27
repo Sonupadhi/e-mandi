@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Items - Emandi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>Emandi</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="listings.html"><i class="fas fa-list"></i> Previous Listings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <button id="menuBtn" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="user-info">
+                    <span>Welcome, Merchant</span>
+                </div>
+            </header>
+
+            <div class="dashboard-content">
+                <div class="buy-section">
+                    <h2>Available Products</h2>
+                    
+                    <!-- Search and Filter Section -->
+                    <div class="search-filter-section">
+                        <div class="search-box">
+                            <input type="text" id="searchInput" placeholder="Search products...">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="filter-box">
+                            <select id="productFilter">
+                                <option value="">All Products</option>
+                                <option value="paddy">Paddy</option>
+                                <option value="pulses">Pulses</option>
+                                <option value="potato">Potato</option>
+                                <option value="onion">Onion</option>
+                            </select>
+                            <select id="priceFilter">
+                                <option value="">Price Range</option>
+                                <option value="0-20">₹0 - ₹20/kg</option>
+                                <option value="20-50">₹20 - ₹50/kg</option>
+                                <option value="50-100">₹50 - ₹100/kg</option>
+                                <option value="100+">₹100+/kg</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Products Grid -->
+                    <div class="products-grid">
+                        <!-- Product Card 1 -->
+                        <div class="product-card">
+                            <img src="Images/paddy.jpg" alt="Paddy">
+                            <div class="product-info">
+                                <h3>Paddy</h3>
+                                <p class="seller">Seller: Rajesh Kumar</p>
+                                <p class="quantity">Available: 200 kg</p>
+                                <p class="price">₹25/kg</p>
+                                <p class="location"><i class="fas fa-map-marker-alt"></i> Delhi</p>
+                                <button class="buy-btn">Contact Seller</button>
+                            </div>
+                        </div>
+
+                        <!-- Product Card 2 -->
+                        <div class="product-card">
+                            <img src="Images/potato.jpg" alt="Potato">
+                            <div class="product-info">
+                                <h3>Potato</h3>
+                                <p class="seller">Seller: Amit Patel</p>
+                                <p class="quantity">Available: 150 kg</p>
+                                <p class="price">₹15/kg</p>
+                                <p class="location"><i class="fas fa-map-marker-alt"></i> Mumbai</p>
+                                <button class="buy-btn">Contact Seller</button>
+                            </div>
+                        </div>
+
+                        <!-- Product Card 3 -->
+                        <div class="product-card">
+                            <img src="Images/pulses.jpg" alt="Pulses">
+                            <div class="product-info">
+                                <h3>Pulses</h3>
+                                <p class="seller">Seller: Priya Sharma</p>
+                                <p class="quantity">Available: 100 kg</p>
+                                <p class="price">₹80/kg</p>
+                                <p class="location"><i class="fas fa-map-marker-alt"></i> Bangalore</p>
+                                <button class="buy-btn">Contact Seller</button>
+                            </div>
+                        </div>
+
+                        <!-- Product Card 4 -->
+                        <div class="product-card">
+                            <img src="Images/onion.jpg" alt="Onion">
+                            <div class="product-info">
+                                <h3>Onion</h3>
+                                <p class="seller">Seller: Suresh Verma</p>
+                                <p class="quantity">Available: 300 kg</p>
+                                <p class="price">₹30/kg</p>
+                                <p class="location"><i class="fas fa-map-marker-alt"></i> Kolkata</p>
+                                <button class="buy-btn">Contact Seller</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

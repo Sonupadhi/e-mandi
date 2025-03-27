@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previous Listings - E-Mandi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>E-Mandi</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="listings.html" class="active"><i class="fas fa-list"></i> Previous Listings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <button id="menuBtn" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="user-info">
+                    <span>Welcome, Merchant</span>
+                </div>
+            </header>
+
+            <div class="dashboard-content">
+                <div class="listings-section">
+                    <h2>Previous Listings</h2>
+                    <div class="listings-grid">
+                        <!-- Active Listings -->
+                        <div class="listing-item">
+                            <img src="Images/paddy.jpg" alt="Paddy">
+                            <h4>Paddy</h4>
+                            <p>Quantity: 100 kg</p>
+                            <p>Price: ₹25/kg</p>
+                        </div>
+                        <div class="listing-item">
+                            <img src="Images/potato.jpg" alt="Potato">
+                            <h4>Potato</h4>
+                            <p>Quantity: 50 kg</p>
+                            <p>Price: ₹15/kg</p>
+                        </div>
+                        <!-- Sold Listings -->
+                        <div class="listing-item">
+                            <img src="Images/pulses.jpg" alt="Pulses">
+                            <h4>Pulses</h4>
+                            <p>Quantity: 75 kg</p>
+                            <p>Price: ₹80/kg</p>
+                        </div>
+                        <div class="listing-item">
+                            <img src="Images/onion.jpg" alt="Onion">
+                            <h4>Onion</h4>
+                            <p>Quantity: 200 kg</p>
+                            <p>Price: ₹30/kg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
