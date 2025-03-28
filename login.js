@@ -42,9 +42,9 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
             // Show success message with user's name
             showSuccess(`Welcome back, ${userData.name}! Redirecting to dashboard...`);
             
-            // Redirect after a short delay
+            // Redirect to dashboard
             setTimeout(() => {
-                window.location.href = 'index.html';
+                window.location.href = 'dashboard.html';
             }, 1500);
         } else {
             showError('Invalid phone number or password. Please try again.');

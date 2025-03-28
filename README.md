@@ -32,8 +32,8 @@ git clone https://github.com/yourusername/e-mandi.git
 
 ```
 e-mandi/
-├── index.html          # Main dashboard
-├── login.html          # Login page
+├── index.html          # Login page
+├── dashboard.html      # Main dashboard
 ├── registration.html   # Registration page
 ├── profile.html        # User profile
 ├── sell.html          # Sell products page
