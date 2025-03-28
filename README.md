@@ -19,12 +19,7 @@ E-Mandi is a modern web application that connects farmers and merchants in the a
 - Font Awesome Icons
 - Google Fonts (Poppins)
 
-## Getting Started
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/e-mandi.git
-```
 
 2. Open `index.html` in your web browser to view the application.
 
@@ -44,20 +39,3 @@ e-mandi/
 └── README.md          # Project documentation
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Font Awesome for icons
-- Google Fonts for Poppins font
-- All contributors who have helped shape this project 
